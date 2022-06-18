@@ -1,0 +1,10 @@
+.Expense{
+   color: red;
+   font-family: sans-serif;
+}
+
+.Expense h4{
+   font-weight: bold;
+   font-family: sans-serif;
+   color: red;
+}

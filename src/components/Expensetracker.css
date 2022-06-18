@@ -1,0 +1,77 @@
+.Transactionlist{
+    color: black;
+    font-weight: bold;
+}
+label{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 0 2vh 0;
+}
+h1{
+    color: black;
+    font-weight: bold;  
+}
+h4{
+    color: black;
+    font-weight: bold;  
+}
+
+.Transaction{
+    white-space:pre
+}
+.Form{
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+
+.submitBtn{
+    position:fixed;
+    bottom: -14%;
+    right:47%;
+    color: red;
+    vertical-align: 2px;
+    padding: 7px 7px 5px;
+    cursor: pointer;
+    font-size: 125%;
+    margin: 1rem 0 1rem 0; 
+  
+
+}
+.submitBtn:hover{
+    background-color: #AD310B;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+html,
+body,
+#root,
+.App {
+    height: 90%;
+    width: 100%;
+}
+
+.Expensetracker {
+    width: 50%;
+    height: 96%;
+    background-color: white;
+    /* Center vertically and horizontally */
+    position: absolute;
+    overflow: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+.row{display:flex;  align-self: stretch; flex-direction:row;  }
+.Total{
+    text-align: left;
+    font-family: sans-serif;
+
+}

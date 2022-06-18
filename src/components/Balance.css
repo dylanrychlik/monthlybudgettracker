@@ -1,0 +1,22 @@
+.Balance{
+    text-align: left;
+    font-family: sans-serif;
+    color: green;
+
+}
+.Balance label{
+    text-align: left;
+    font-family: sans-serif;
+    color: green;
+    font-size: 20px;
+    margin: 0 0 2vh 0;
+}
+.Balance h4{
+    text-align: left;
+    font-family: sans-serif;
+    color: green;
+}
+
+.render{
+    position:absolute; right:87%; top:23%;
+}
